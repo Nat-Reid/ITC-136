@@ -8,13 +8,13 @@ connections=$( netstat |grep tcp |awk '{print $4}' )
 
 currentUsers=$( who |awk '{print $1}' )
 
-echo -e "\e[7mThis is a snapshot of your current system:
+echo -e "\e[7mThis is a snapshot of your current system:\e[27m
   
    \e[36mDisk Used: $diskUsed
    \e[35mMemory Available: $memFree
    \e[32mUsers Logged In: $currentUsers
    
-\e[39Open TCP Connections: 
+\e[91mOpen TCP Connections: 
 $connections
    "
    
