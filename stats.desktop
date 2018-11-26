@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=0.1
-Name="Nat's Super Deluxe Colorful Computer Stats Program That is the Best in the World"
-Comment= My first ever application
-Exec=/usr/bin/gnome-terminal -e "bash -c '/usr/local/bin/stats; bash'"
-Icon=/home/natreid/Documents/spider-web.png
-Terminal=false
-Type=Application
-Categories=Utility;Application;
